@@ -8,7 +8,7 @@ namespace CourseAppGitGithub
         {
             Console.WriteLine("Hello World!");
             Console.WriteLine("Good Morning!");
-            Console.WriteLine("Como Você Está Hoje?");
+            Console.WriteLine("Good Night!");            
 
             for (int i = 0; i < 10; i++)
             {

@@ -1,0 +1,55 @@
+# git config --global user.name "Seu Nome"
+# git config --global user.email "Seu Email"
+
+# git init
+
+********************************************************************************************
+# Salvando versões (efetuando commits)
+
+# git add .
+# git log
+# git log --oneline
+# git status
+# git commit -m "msg"
+
+********************************************************************************************
+# Voltar ao estado do commit atual
+
+# git clean -df
+# git checkout -- .
+
+********************************************************************************************
+#Desfazer ultimo commit
+
+# Remover commit mantendo as alterações
+# git reset --soft HEAD~1
+
+# Remover último commit inclusive alterações (cuidado)
+# git reset --hard HEAD~1
+
+********************************************************************************************
+#Somente da Uma olhada em uma versão anterior
+# Navegar entre commits, alterando os arquivos temporariamente:
+# git checkout <código do commit>
+
+# Voltar para o último commit:
+# git checkout <nome do branch>
+
+********************************************************************************************
+# Associando o repositorio local ao repositorio do Github
+
+# Associar repositório local ao repositório remoto, dando o apelido de "origin" a ele:
+# git remote add origin <https://github.com/samuelsirkis/Curso-git.git>
+
+# Associar o repositorio local ao um outro repositório remoto, porém mantendo o mensmo apelido:
+
+# Subindo repositório local para o repositório remoto
+# git push -u origin master
+
+# atualizar repositorio remoto
+# git push
+********************************************************************************************
+# Sair do VIM
+
+#<esc> 
+#<:q!>
