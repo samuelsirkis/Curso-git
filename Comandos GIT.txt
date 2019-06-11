@@ -49,6 +49,9 @@
 # atualizar repositorio remoto
 # git push
 ********************************************************************************************
+# Verificar se exite atualizações no seu repositório
+# git pull origin master
+********************************************************************************************
 # Sair do VIM
 
 #<esc> 
